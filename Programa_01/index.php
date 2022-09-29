@@ -11,7 +11,7 @@
         Primeiro Numero: <input name="num1" type="text"><br>
         Segundo Numero: <input name="num2" type="text"><br>
         Terceiro Numero: <input name="num3" type="text"><br>
-   
+        <input type="submit" name="soma" value="enviar">
     </form> 
     <?php
         $a = $_POST['num1'];
@@ -27,7 +27,7 @@
         }
         if($c < $a & $c < $b) {
             echo "<span style='color:red;'>$soma</span>";
-        }
+        } 
 
 
     ?>       
