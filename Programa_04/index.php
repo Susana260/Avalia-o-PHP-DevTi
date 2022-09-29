@@ -30,10 +30,10 @@
 
     <?php
         $capital = 8654;
-        $juros1 = $_POST['juros1'];
-        $juros2 = $_POST['juros2'];
-        $juros3 = $_POST['juros3'];
-        $juros4 = $_POST['juros4'];
+        $juros1 = @$_POST['juros1'];
+        $juros2 = @$_POST['juros2'];
+        $juros3 = @$_POST['juros3'];
+        $juros4 = @$_POST['juros4'];
 
         if($juros1) {
             $juros = $capital*(1.5/100)*(24);
